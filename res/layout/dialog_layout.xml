@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="15dp"
+        android:textSize="20sp"
+        android:background="#FCCCBB33"
+        android:text="@string/dialog_title2" />
+    
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="15sp"
+        android:text="Here is Your Message" >
+    </TextView>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+        
+        <Button
+        android:id="@+id/btncancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancle"
+        android:layout_weight="1" />
+        
+    <Button
+        android:id="@+id/btnok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "@string/ok"
+        android:layout_weight="1" />
+    
+    </LinearLayout>
+    
+
+</LinearLayout>

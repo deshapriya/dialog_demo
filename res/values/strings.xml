@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">dialog</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_text">Show Normal Dialog</string>
+    <string name="button_text1">Show Custom Dialog</string>
+    <string name="button_text2">Show Custom Dialog With Custom Layout</string>
+    
+    <string name="dialog_title">Normal Dialog</string>
+    <string name="dialog_title1">Custom Dialog</string>
+    <string name="dialog_title2">Custom Dialog With Custom Layout</string>
+    
+    <string name="ok">OK</string>
+    <string name="cancle">Cancel</string>
+    <string name="report">Report</string>
+    
+    <string name="msg_report">Successfully reported.</string>
+    <string name="msg_ok">Job is Done successfully.</string>
+
+</resources>
